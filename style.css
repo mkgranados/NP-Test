@@ -1,0 +1,115 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@400;600&display=swap');
+
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+bbutton {
+    padding: 16px 32px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: all 0.3s ease; /* Add this line for smooth transition */
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(108, 92, 231, 0.2);
+}
+
+button:hover {
+  background-color: #5b4cc4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.result-box {
+  margin-top: 30px;
+  padding: 30px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.result-box:hover {
+  border-color: #6c5ce7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#productName {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #2d3436;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#description, #audience, #benefits {
+  font-family: 'Inter', sans-serif;
+  color: #636e72;
+  line-height: 1.6;
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+/* Add some animation when new content appears */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.result-box {
+  animation: fadeIn 0.5s ease-out;
+}
+Key improvements in this design:
+
+Modern Typograp
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f5f5f5;
+}
+
+/* Add this to ensure the footer doesn't overlap content */
+.container {
+    margin-bottom: 80px;
+}
