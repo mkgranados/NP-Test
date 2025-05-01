@@ -112,4 +112,9 @@ Modern Typograp
 /* Add this to ensure the footer doesn't overlap content */
 .container {
     margin-bottom: 80px;
+}.tagline {
+    color: #666;
+    font-size: 18px;
+    margin: 20px 0 30px;
+    font-style: italic;
 }
